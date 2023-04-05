@@ -1,0 +1,447 @@
+﻿html{
+    height:100%
+}
+
+@font-face {
+    font-family:Roboto-Light;
+    src: url(http://butterybiscuitbase.coffeecup.com/fonts/roboto/Roboto-Light.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    height:100%;
+    margin:0;
+    padding:0;
+    font-family:Roboto-Light, Lato, Helvetica, Arial, sans-serif;
+}
+
+/*Section 1*/
+
+#s1{
+    background-image: url(images/backgrounds/sanfranciscoday.png);
+    background-size:cover;
+    background-position:center;
+    width:100%;
+    height:300px;
+}
+
+#s1div1{
+    position:absolute;
+    top:195px;
+    width:100%;
+    height:90px;
+}
+
+#s1div2{
+    float:left;
+    position:relative;
+    top:37.5%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#googlelogo{
+    height:30px;
+    margin-left:25px;
+    cursor:pointer;
+}
+
+#searchboxform{
+    float:left;
+    height:60px;
+    margin-left:25px;
+    background-color:white;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+#searchbox{
+    width:580px;
+    font-size:40px;
+    height:60px;
+    margin:10px;
+    cursor:text;
+}
+
+#s1div3{
+    float:left;
+    height:60px;
+    width:80px;
+    background-color:white;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    cursor:pointer;
+}
+
+#searchicon{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:30px;
+    position:relative;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#s1div4{
+    position:absolute;
+    float:right;
+    width:100%;
+    top:15px;
+    right:0px;
+    height:90px;
+    font-weight:bold;
+}
+
+.s1div5{
+    float:right;
+    padding:15px;
+    cursor:pointer;
+    height:30px;
+}
+
+#email{
+    display:block;
+    color:grey;
+    margin:5px 0px;
+    padding:0px 0px;
+    font-size:16px;
+    height:16px;
+}
+
+.topicons{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:30px;
+}
+
+/*Section 2*/
+
+#s2{
+    display:block;
+    background-color:#385762;
+    width:100%;
+    height:75px;
+}
+
+#s2div1{
+    display:block;
+    height:75px;
+    padding-left:5%;
+    padding-right:50px;
+}
+
+.searchtype{
+    float:left;
+    text-align:center;
+    margin:0;
+    padding: 0 15px;
+    color:lightgrey;
+    position:relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition:0.2s;
+    -webkit-transition:0.2s;
+    cursor:pointer;
+}
+
+.searchtype:hover{
+    color:white;
+}
+
+.searchtype span{
+    color:white;
+}
+
+.resultsnumber{
+    float:right;
+    text-align:center;
+    margin:0;
+    position:relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#secondsresults{
+    color:lightgrey;
+}
+
+#aboutresults{
+    color:white;
+    padding: 0 15px;
+}
+
+/*Section 3*/
+
+#s3{
+    float:left;
+    display:block;
+    width:50%;
+    margin-top:50px;
+    margin-left:5%;
+}
+
+.searchresult{
+    display:block;
+    width:100%;
+    cursor:pointer;
+    margin-bottom:40px;
+}
+
+.searchresulttitle{
+    font-size:30px;
+    margin:5px 0px;
+}
+
+.searchresulturl{
+    font-size:15px;
+    color:#01b22b;
+    margin:5px 2px;
+}
+
+.searchresultdescription{
+    font-size:20px;
+    color:darkgrey;
+    margin:5px 2px;
+}
+
+#inthenews{
+    float:left;
+    width:100%;
+    margin-bottom:40px;
+    border-top:solid 3px #EEEEEE;
+    border-bottom:solid 3px #EEEEEE;
+}
+
+#inthenewsmaintitle{
+    font-size:40px;
+    margin:20px 0px;
+}
+
+.inthenewsfullresult{
+    display:block;
+    float:left;
+    width:100%;
+    cursor:pointer;
+    margin-bottom:20px;
+}
+
+.inthenewsimage{
+    float:left;
+    margin:5px 5px 0px 2px;
+}
+
+.inthenewsresult{
+    display:block;
+    float:left;
+    width:80%;
+    cursor:pointer;
+}
+
+#inthenewstitle{
+    font-size:30px;
+    margin:5px 0px;
+}
+
+#inthenewsurl{
+    font-size:15px;
+    color:#01b22b;
+    margin:5px 2px;
+}
+
+#inthenewsdescription{
+    font-size:20px;
+    color:darkgrey;
+    margin:5px 2px;
+}
+
+.inthenewstitle1{
+    font-size:20px;
+    margin:2px 0px;
+}
+
+.inthenewsurl1{
+    font-size:12px;
+    color:#01b22b;
+    margin:2px 2px;
+}
+
+#morenews{
+    font-size:20px;
+    margin:5px 0px;
+    cursor:pointer;
+}
+
+/*Bio Section*/
+
+#bis{
+    float:left;
+    width:35%;
+    margin-top:50px;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+#bistitle{
+    float:left;
+    width:100%;
+    margin:5px 0px;
+    padding:15px;
+    font-size:40px;
+}
+
+#bissubtitle{
+    display:block;
+    margin:5px 0px;
+    padding:15px;
+    font-size:20px;
+    color:darkgrey;
+}
+
+#bisweather{
+    display:block;
+    float:left;
+    width:100%;
+}
+
+#bisdayselectiondiv{
+    display:block;
+    width:100%;
+}
+
+#weathericondiv{
+    float:left;
+    height:200px;
+    width:50%;
+}
+
+#weathericon{
+    display:block;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#weatherinfodiv{
+    float:left;
+    width:50%;
+}
+
+#temperature{
+    float:left;
+    font-size:60px;
+    height:60px;
+    margin:10px 5px;
+    width:100%;
+}
+
+.weatherinfo{
+    float:left;
+    width:100%;
+    font-size:20px;
+    margin:5px;
+    color:grey;
+}
+
+.weatherinfofirstword{
+    color:black;
+}
+
+.bisdayselection{
+    float:left;
+    display:block;
+    width:33.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333%;
+    text-align:center;
+    font-size:20px;
+    margin:0;
+    background-color:#EEEEEE;
+    color:grey;
+    height:20px;
+    padding:15px 0px;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+}
+
+.bisdayselection:hover{
+    background-color:white;
+    cursor:pointer;
+}
+
+#today{
+    background-color:white;
+}
+
+/*Section 4*/
+
+#s4{
+    display:block;
+    float:left;
+    background-color:#385762;
+    width:100%;
+    height:125px;
+}
+
+#s4div1{
+    display:block;
+    height:125px;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.pagenumber{
+    float:left;
+    text-align:center;
+    margin:0;
+    color:white;
+    position:relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition:0.2s;
+    -webkit-transition:0.2s;
+    cursor:pointer;
+}
+
+.pagenumber:hover{
+    color:#880E4F;
+}
+
+#currentpage{
+    color:#880E4F;
+}
+
+.pagenumberletter{
+    margin:0;
+    font-size:30px;
+}
+
+.pagenumberdigit{
+    opacity:0.8;
+    margin:0;
+    font-size:20px;
+}
+
+.pagenumberinvisble{
+    visibility:hidden;
+    margin:0;
+    font-size:20px;
+}
